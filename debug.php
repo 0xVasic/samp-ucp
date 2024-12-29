@@ -1,5 +1,5 @@
 <?php
-echo "Iskljuceno"
+echo "Iskljuceno";
 /*function hashPassword($password, $username) {
     $hashed = hash('sha256', $password . $username);
     return strtoupper($hashed);
