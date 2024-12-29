@@ -7,6 +7,14 @@ Ovaj projekat je prvobitno razvijen za **Fusion Gaming** server 2022. godine. Na
 
 Ovaj UCP je jednostavna web aplikacija koja omogućava korisnicima da se prijave i pregledaju svoje podatke.
 
+<p align="center"> <img src="https://i.imgur.com/O3FUJ9I.png" alt="Login Page" width="80%" /> </p>
+
+<p align="center"> <img src="https://i.imgur.com/qnulDTs.png" alt="Dashboard" width="80%" /> </p>
+
+<p align="center"> <img src="https://i.imgur.com/ZsCMbdI.png" alt="Ban List" width="80%" /> </p>
+
+<p align="center"> <img src="https://i.imgur.com/pi9jxp8.png" alt="Messages" width="80%" /> </p>
+
 ## Instalacija
 
 1. **Klonirajte repo:**
