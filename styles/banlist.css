@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #00b0ff; /* onako plavkasta boja, stilizovati kasnije */
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.search-form input {
+    width: 300px;
+    padding: 12px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.search-form button {
+    background-color: #00b0ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+    background-color: #0091cc;
+}
+
+.ban-list-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+table th {
+    background-color: #333;
+    color: #00b0ff; 
+}
+
+table td {
+    color: #ccc;
+}
+
+table tr:hover {
+    background-color: #444;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.page-link {
+    background-color: #00b0ff;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.page-link:hover {
+    background-color: #0091cc;
+}
+
+.page-link:active {
+    transform: scale(0.98);
+}
